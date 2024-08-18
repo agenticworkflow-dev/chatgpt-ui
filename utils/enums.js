@@ -50,8 +50,8 @@ export const MODELS = {
     temperature: 0.7,
     top_p: 1.0
   },
-  'gpt-4o': {
-    name: 'gpt-4o',
+  'azure-gpt-4o': {
+    name: 'azure-gpt-4o',
     frequency_penalty: 0.0,
     presence_penalty: 0.0,
     total_tokens: 4096,
@@ -61,4 +61,4 @@ export const MODELS = {
   }
 }
 
-export const DEFAULT_MODEL_NAME = 'gpt-3.5-turbo'
+export const DEFAULT_MODEL_NAME = 'azure-gpt-4o'
