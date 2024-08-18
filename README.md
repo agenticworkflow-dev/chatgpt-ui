@@ -2,17 +2,19 @@
 <h1>ChatGPT UI</h1>
 </div>
 
-A ChatGPT web client that supports multiple users, multiple languages, and multiple database connections for persistent data storage.
+A fork from the original repo [https://github.com/WongSaang/chatgpt-ui-server](https://github.com/WongSaang/chatgpt-ui-server).
+The main change is replacing OpenAI with Azure OpenAI
 
-The server of this project：[https://github.com/WongSaang/chatgpt-ui-server](https://github.com/WongSaang/chatgpt-ui-server)
+## How to start
 
-## Special sponsors
-- [Aissts](https://aissts.com/) - Support multiple types of robots, Pay as you go, no need for high subscription fees. Register now for a chance to get free credit.
+1. Check out the code
+2. Copy .env.example to .env and add necessary Azure OpenAI settings
+3. Use `docker compose up -d` to start the servers
+4. BEFORE attempting to login, open 'localhost:9000/admin' in a browser. Add a dummy key as shown below
 
-## Documentation
-- [English](https://wongsaang.github.io/chatgpt-ui/)
-- [中文](https://wongsaang.github.io/chatgpt-ui/zh/)
+![Add Key](./add_key.jpg)
+
+5. Open `localhost` in a browser to start
 
 
-https://user-images.githubusercontent.com/46235412/227156264-ca17ab17-999b-414f-ab06-3f75b5235bfe.mp4
 
