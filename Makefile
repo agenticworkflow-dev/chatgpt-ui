@@ -1,5 +1,5 @@
 REPO := agenticworkflow/chatgpt-ui
-VERSION := v240812
+VERSION := v240924
 
 build:
 	docker build \
